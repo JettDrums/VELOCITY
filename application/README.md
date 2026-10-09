@@ -30,14 +30,13 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 ## Remaining fill-ins
 
 - Memo date line: `[DD] October 2026`
-- Memo paragraph 3 and CV: one sentence on the MIT logistics project with LTC Webb
 
 ## Check before submitting
 
 - Your April 2026 resume lists the TDAC AIAD as "Summer 2025." The outbrief is dated July 2026, so the CV uses Jun-Jul 2026.
 - TDAC results are described qualitatively. Some TDAC drafts are marked CUI / Distribution D, so ask MAJ Mikelson before you add exact numbers.
 - Show LTC Webb the memo before you submit, since it names him as your advisor.
-- Add LTC Webb's first name to the CV if you want it there.
+- The memo and CV say LTC Webb's research is partnered with the MIT Center for Transportation & Logistics (from his slide). Confirm that wording with him.
 
 ## Palantir contacts
 
@@ -52,8 +51,8 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 | INFORMS Analytics+ Conference, Washington, DC, 4-6 Apr 2027 | $2,000 |
 | Cloud GPU compute, 250 hours | $500 |
 | Bertsimas and Tsitsiklis, *Introduction to Linear Optimization* | ~$90 |
-| Birge and Louveaux, *Introduction to Stochastic Programming* | ~$85 |
-| **Total** | **$9,375** |
+| Ahuja, Magnanti and Orlin, *Network Flows* | ~$120 |
+| **Total** | **$9,410** |
 
 Check the textbook and compute prices before you submit.
 
@@ -61,5 +60,5 @@ Check the textbook and compute prices before you submit.
 
 1. Ask LTC Fukuzawa how Velocity Scholars' priority fill for Palantir AIADs works, and mention your contact with Mehdi Alhassani. A named Palantir contact makes the AIAD read as feasible.
 2. Message Mehdi Alhassani (reminder set) and ask whether a cadet could spend three weeks with the Maven team.
-3. If you can, build a small optimization baseline for the resupply problem before 2 NOV. Even a first version shows the follow-on project has already started.
+3. If the non-RL baselines on the Taiwan network run before 2 NOV, add one finding to memo paragraph 3.
 4. Check the ARL-USMA Technical Symposium poster sign-up date. A presentation would strengthen the CV.
