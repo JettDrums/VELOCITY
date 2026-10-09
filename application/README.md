@@ -36,7 +36,6 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Your April 2026 resume lists the TDAC AIAD as "Summer 2025." The outbrief is dated July 2026, so the CV uses Jun-Jul 2026.
 - TDAC results are described qualitatively. Some TDAC drafts are marked CUI / Distribution D, so ask MAJ Mikelson before you add exact numbers.
 - Show LTC Webb the memo before you submit, since it names him as your advisor.
-- The memo and CV say LTC Webb's research is partnered with the MIT Center for Transportation & Logistics (from his slide). Confirm that wording with him.
 
 ## Palantir contacts
 
