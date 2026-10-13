@@ -19,6 +19,10 @@
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}[\vspace{-6pt}\rule{\textwidth}{0.6pt}]
 \titlespacing*{\section}{0pt}{4pt}{3pt}
 
+% Keep each section heading on the same page as its first entry
+\let\oldsection\section
+\renewcommand{\section}{\needspace{6\baselineskip}\oldsection}
+
 % Bullets: en dash, tight spacing
 \setlist[itemize]{label=\textendash, leftmargin=1.6em, topsep=1pt, itemsep=0pt, parsep=0pt}
 

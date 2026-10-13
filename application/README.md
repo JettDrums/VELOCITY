@@ -8,7 +8,10 @@ POC: LTC Mathew Fukuzawa, mathew.fukuzawa@westpoint.edu
 | File | Status |
 |---|---|
 | `Pezan_DXDT_Application_Memo_DRAFT.docx` | Full draft on the official template, built on the TDAC AIAD. Yellow highlights are fill-ins. |
-| `Pezan_CV_DRAFT.docx` | Research CV built from your Spring 2026 resume, the TDAC outbrief, and your website projects, in the MA498 format. |
+| `latex/Pezan_CV.tex` / `.pdf` | **CV to submit** (2 pages). Standalone LaTeX, compile in Overleaf. |
+| `latex/Pezan_Resume.tex` / `.pdf` | One-page industry resume (same layout), for Palantir and other contacts. |
+| `latex/*_WebbFormat.tex` + `resume.cls` | Earlier versions in LTC Webb's template, kept as alternates. |
+| `Pezan_CV_DRAFT.docx` | Older Word draft; superseded by the LaTeX CV. |
 
 Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 
@@ -24,7 +27,7 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 | 6 | Minor or Second Major | Artificial Intelligence minor |
 | 7 | Current CQPA | 3.571 |
 | 8 | Rate your interest in... | Rate AI/ML, optimization, and industry/Palantir engagement highest, so they match the memo |
-| 9 | CV/Resume | `Pezan_CV_DRAFT.docx`, saved as PDF |
+| 9 | CV/Resume | `latex/Pezan_CV.pdf` |
 | 10 | Application Memo | `Pezan_DXDT_Application_Memo_DRAFT.docx`, saved as PDF |
 
 ## Remaining fill-ins
