@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dennis G. Pezan - One-Page Resume (Webb format; kept as an alternate)
+% Same format as Pezan_CV.tex (LTC Webb's template), trimmed to one page.
+% Requires resume.cls in the same folder.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume}
+
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{needspace} % keeps each entry's title and bullets on the same page
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=blue}
+\urlstyle{same}
+\title{Pezan Resume}
+
+\name{DENNIS G. PEZAN}
+\address{West Point, NY 10996 \\ \href{https://dennis-pezan.com}{dennis-pezan.com} \\ \href{https://www.linkedin.com/in/dennis-pezan}{linkedin.com/in/dennis-pezan}}
+\address{\href{mailto:dennis.pezan@westpoint.edu}{dennis.pezan@westpoint.edu} \\ (815) 592-6927 \\ Security Clearance: Secret}
+
+\begin{document}
+\renewcommand{\labelitemi}{\textendash}
+
+\begin{rSection}{Education}\itemsep -1pt
+\needspace{4\baselineskip}
+\begin{rSubsection}{\textnormal{B.S. in Operations Research,} United States Military Academy}{Expected 2029}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Minor in Artificial Intelligence $\diamond$ Finance Specialization $\diamond$ CQPA: 3.571 $\diamond$ Dean's List (Fall 2025, Spring 2026) $\diamond$ Stokes Writing Fellow $\diamond$ Sea to Shining Sea Fellow
+\end{itemize}
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Research Experience}\itemsep -1pt
+
+\needspace{4\baselineskip}
+\begin{rSubsection}{Undergraduate Researcher, \normalfont{Department of Mathematical Sciences, USMA}}{2026 - Present}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Modeling adversary interdiction of Taiwan's crude oil supply with LTC Matthew Webb, extending his reinforcement-learning approach to maximum-flow network interdiction
+    \item Built a 57-node, 79-edge open-source network with sourced capacities and seven costed adversary actions, verified against an independent max-flow calculation
+\end{itemize}
+\end{rSubsection}
+
+\needspace{4\baselineskip}
+\begin{rSubsection}{Research Intern, \normalfont{Transformation Decision Analysis Center, Fort Lee, VA}}{2026}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Summer AIAD internship; redesigned the reward function for a PPO reinforcement-learning resupply agent in Logistics Battle Command, the Army's sustainment simulation
+    \item Built diagnostic tools that exposed four reward flaws; the retrained agent more than tripled requests filled and beat a hand-coded priority-aware baseline across 101 seeds
+    \item Presented findings to Branch Chief LTC Ryan Miller and, by call, to TDAC's AI/RL researchers at the Naval Postgraduate School
+\end{itemize}
+\end{rSubsection}
+
+\needspace{4\baselineskip}
+\begin{rSubsection}{Independent Study in Machine Learning, \normalfont{Department of Mathematical Sciences, USMA}}{2025 - 2026}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Independent study of decision trees, bagging, and random forests (MA289) under LTC Patrick Kuiper; built an interactive research site and presented findings to officers
+\end{itemize}
+\end{rSubsection}
+
+\vspace{-3pt}
+\end{rSection}
+
+\begin{rSection}{Professional Development} \itemsep -3pt
+\needspace{4\baselineskip}
+\textbf{Sea to Shining Sea Domestic AIAD,} Defense Technology and Innovation \hfill{2026}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Held in-depth discussions with leaders at Palantir, Stanford's Gordian Knot Center, OpenAI, Apple, and Meta on how defense technology is developed, procured, and fielded
+    \item Observed technology integration at the 4th Infantry Division and U.S. Northern Command
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Leadership and Service} \itemsep -3pt
+\needspace{4\baselineskip}
+{\textbf{Cadet-in-Charge, MA103 Tutoring,} Center for Enhanced Performance, USMA} \hfill {2026 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Lead the full tutor staff for MA103, a core course with 1,010 cadets
+\end{itemize}
+
+\needspace{4\baselineskip}
+{\textbf{Writing Consultant,} Mounger Writing Center, USMA} \hfill {2026 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Selected as a Stokes Writing Fellow to coach cadets on strengthening the rhetoric of their writing
+\end{itemize}
+
+\needspace{4\baselineskip}
+{\textbf{Member,} CLD-STEM Outreach Program, USMA} \hfill {2025 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Bring hands-on STEM projects to 800+ students across the Chicagoland and Greater Los Angeles areas
+\end{itemize}
+
+\needspace{4\baselineskip}
+{\textbf{Cadet Ambassador,} Cadet Ambassador Program, USMA} \hfill {2025 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Represent West Point in outreach to prospective cadets
+\end{itemize}
+
+\needspace{4\baselineskip}
+{\textbf{Department Manager,} McDonald's, Plainfield, IL} \hfill {2022 - 2024}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Promoted at age 16; scheduled 80+ employees weekly, managed \$20,000+ in weekly supply orders, and held the store's labor metric at or below 23.5\% month over month
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Skills}
+    Python (PyTorch, scikit-learn), SQL, Java $\diamond$ Reinforcement learning, network optimization $\diamond$ Spanish (fluent)
+\end{rSection}
+
+\end{document}
