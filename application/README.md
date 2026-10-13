@@ -47,7 +47,7 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 | Item | Cost |
 |---|---|
 | AIAD, Palantir Technologies (Maven team), Palo Alto, CA (alternate: Shield AI), 21 days, Jun-Jul 2027 | $6,700 |
-| INFORMS Analytics+ Conference, Washington, DC, 4-6 Apr 2027 | $2,000 |
+| 95th MORS Symposium, June 2027 (location not yet announced) | $2,000 |
 | Cloud GPU compute, 250 hours | $500 |
 | Bertsimas and Tsitsiklis, *Introduction to Linear Optimization* | ~$90 |
 | Ahuja, Magnanti and Orlin, *Network Flows* | ~$120 |
@@ -61,3 +61,5 @@ Check the textbook and compute prices before you submit.
 2. Message Mehdi Alhassani (reminder set) and ask whether a cadet could spend three weeks with the Maven team.
 3. If the non-RL baselines on the Taiwan network run before 2 NOV, add one finding to memo paragraph 3.
 4. Check the ARL-USMA Technical Symposium poster sign-up date. A presentation would strengthen the CV.
+5. Consider joining MORS and INFORMS as a student member (LTC Webb belongs to both), then list them under a Professional Memberships section on the CV.
+6. Watch mors.org/events/symposia for the 95th Symposium dates and abstract deadline.
