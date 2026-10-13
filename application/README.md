@@ -44,17 +44,13 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 
 ## Budget (within the $10,000 cap)
 
-| Item | Cost |
-|---|---|
-| Research AIAD, MIT Center for Transportation & Logistics, Cambridge, MA (alternate: Stanford Gordian Knot Center), 21 days, Jun-Jul 2027 | $6,700 |
-| Cloud GPU compute, 250 hours | $500 |
-| Bertsimas and Tsitsiklis, *Introduction to Linear Optimization* | ~$90 |
-| Ahuja, Magnanti and Orlin, *Network Flows* | ~$120 |
-| **Total** | **$7,410** |
+| Item | Cost | Source |
+|---|---|---|
+| Research AIAD, MIT Center for Transportation & Logistics, Cambridge, MA (alternate: Stanford Gordian Knot Center), 21 days, Jun-Jul 2027 | $6,700 | The department's required AIAD estimate (Letter of Instruction para 3d and the memo template) |
+| Ahuja, Magnanti and Orlin, *Network Flows* (ISBN 9780136175490) | $224 | Pearson list price at time of drafting (pearson.com). The standard max-flow/min-cut reference behind the interdiction model. |
+| **Total** | **$6,924** | |
 
-Check the textbook and compute prices before you submit.
-
-The Palantir/Maven AIAD is not in the budget. The memo says you would seek it through the Velocity Scholars' priority fill.
+The Palantir/Maven AIAD is not in the budget. Paragraph 2 says you would seek it as a Velocity Scholar.
 
 ## Before 2 NOV
 
