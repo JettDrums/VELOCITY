@@ -1,0 +1,203 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dennis G. Pezan - Curriculum Vitae
+% Format mirrors LTC Matthew Webb's CV (Medium Length Professional CV,
+% LaTeXTemplates.com, original author Trey Hunner).
+% Requires resume.cls in the same folder.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume}
+
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=blue}
+\urlstyle{same}
+\title{Pezan CV}
+
+\name{DENNIS G. PEZAN}
+\address{United States Military Academy, West Point, NY 10996}
+\address{\href{mailto:dennis.pezan@westpoint.edu}{dennis.pezan@westpoint.edu} \\ (815) 592-6927 \\ \href{mailto:dennisgpezan@gmail.com}{dennisgpezan@gmail.com}}
+% Optional third line, e.g. LinkedIn or your website:
+% \address{\href{https://www.linkedin.com/in/YOUR-HANDLE}{www.linkedin.com/in/YOUR-HANDLE}}
+
+\begin{document}
+\renewcommand{\labelitemi}{\textendash}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}\itemsep -1pt
+
+\begin{rSubsection}{\textnormal{Bachelor of Science in Operations Research,} United States Military Academy}{Expected 2029}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Finance Specialization; CQPA: 3.571
+    \item Research Project: Threat-Adaptive Interdiction of Taiwan's Crude Oil Supply (Advisor: LTC Matthew Webb)
+    \item Stokes Writing Fellow
+    \item Conducted AIADs at the Transformation Decision Analysis Center and on the Sea to Shining Sea Domestic AIAD (2026)
+\end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Experience}\itemsep -1pt
+
+\begin{rSubsection}{Undergraduate Researcher, \normalfont{Department of Mathematical Sciences, USMA}}{2026 - Present}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Project: Threat-Adaptive Interdiction of Taiwan's Crude Oil Supply, advised by LTC Matthew Webb; extends his MIT Center for Transportation \& Logistics doctoral research on reinforcement learning for maximum-flow network interdiction
+    \item Built a 57-node, 79-edge open-source model of Taiwan's crude oil import network (four sources, major straits and canals, three ports) with sourced capacities
+    \item Designed a fixed-budget adversary action set of seven action types, each with a cost and success probability anchored on historical events
+    \item Connected the network to a reinforcement-learning interdiction environment and verified it against an independent max-flow calculation; identified and fixed a targeting-filter issue that could hide the Strait of Hormuz
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{AI Research Intern, \normalfont{Transformation Decision Analysis Center, Fort Lee, VA}}{2026}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Academic Individual Advanced Development (AIAD) summer internship under MAJ Erica Mikelson
+    \item Redesigned the reward function for a proximal policy optimization (PPO) reinforcement-learning agent that allocates resupply in Logistics Battle Command, the Army's stochastic sustainment simulation
+    \item Built two diagnostic tools that exposed four reward flaws, including an agent that outscored every baseline while starving the priority unit during engagements
+    \item Retrained agent more than tripled the share of requests filled and outperformed a hand-coded priority-aware baseline across 101 random seeds
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate Research Assistant, \normalfont{Department of Mathematical Sciences, USMA}}{2025 - 2026}{}
+\vspace{-3pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Applied machine-learning research under LTC Patrick Kuiper on model behavior, bagging, and random forests for data-driven decision making
+    \item Built an interactive random forest research site (MA289) with a live classifier demonstration and hyperparameter explorer
+    \item Delivered a live AI-assisted coding demonstration of machine-learning workflows to deployed Army officers
+\end{itemize}
+\end{rSubsection}
+
+\vspace{-3pt}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PRESENTATIONS}
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Pezan D} (2026). Reward Design for Reinforcement-Learning Resupply in Logistics Battle Command.{ \it{Final Results Brief, Transformation Decision Analysis Center}. \textnormal{Fort Lee, VA, July 22.}}
+\end{enumerate}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL DEVELOPMENT
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROFESSIONAL DEVELOPMENT} \itemsep -3pt
+\textbf{Sea to Shining Sea Domestic AIAD,} Defense Technology and Innovation \hfill{2026}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Engaged Palantir (Project Maven demonstration), Stanford's Gordian Knot Center (Col. (Ret.) Joseph Felter, Jack Faherty), OpenAI, Apple, and Meta Reality Labs (CTO Andrew Bosworth) on how defense technology is developed and procured
+    \item Observed how the 4th Infantry Division employs and gives feedback on these systems under Next Generation Command and Control; visited U.S. Northern Command, NORAD, and the Cheyenne Mountain Complex
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS} \itemsep -3pt
+\textbf{Random Forest Research Site,} MA289, USMA \hfill{2026}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Interactive explainer comparing decision trees, bagging, and random forests; built and deployed through AI-assisted development (Claude Code, GitHub, Vercel)
+\end{itemize}
+
+\textbf{CFT Packing List,} Web Application \hfill{2026}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item React web app that cadets use to organize and track gear for the Combat Fitness Test
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROFESSIONAL CERTIFICATIONS} \itemsep -3pt
+\textbf{Software Engineering Job Simulation,} JPMorgan Chase \& Co. (Forage) \hfill{2026}
+
+\textbf{Modern Data Architecture with Microsoft Fabric,} Microsoft (Coursera) \hfill{2026}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROFESSIONAL EXPERIENCE} \itemsep -3pt
+{\textbf{Intern,} GrayStone AI Solutions, Remote} \hfill {2024}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Built Python and Excel tools to support financial planning and analysis workflows
+\end{itemize}
+
+{\textbf{Department Manager,} McDonald's, Plainfield, IL} \hfill {2022 - 2024}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Managed weekly scheduling for 80+ employees with 95\% on-time accuracy and oversaw \$20,000+ in weekly supply procurement
+    \item Promoted as the youngest department manager in the region; sustained 90\%+ customer satisfaction scores
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LEADERSHIP AND VOLUNTEER SERVICE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{LEADERSHIP AND VOLUNTEER SERVICE} \itemsep -3pt
+{\textbf{Cadet Ambassador,} CLD-STEM Program, USMA} \hfill {2025 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Represent West Point at advisory boards in Chicago and Los Angeles; delivered 50+ hours of STEM outreach and mentorship to underrepresented students
+\end{itemize}
+
+{\textbf{Certified Tutor,} Center for Enhanced Performance, USMA} \hfill {2025 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Tutor cadets in mathematics, chemistry, and psychology
+\end{itemize}
+
+{\textbf{Member,} Finance Club, USMA} \hfill {2025 - Present}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Engage with industry executives from companies including Palantir, Uber, and Meta
+\end{itemize}
+
+{\textbf{Volunteer Senior Publicist,} Recycle \& Reboot, Plainfield, IL} \hfill {2024}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Led outreach to secure donated technology; helped refurbish and distribute 100+ computers to underserved communities
+\end{itemize}
+
+{\textbf{Candidate,} Illinois Premier Boys State} \hfill {2024}
+\vspace{-5pt}
+\begin{itemize}
+\setlength\itemsep{-1.5ex}
+    \item Elected Alderman and Township Supervisor; advanced to the Lieutenant Governor primary through competitive public speaking
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Programming Languages and Skills}
+    Python, Java (Spring Boot), SQL, JavaScript (React) \\
+    Microsoft Fabric, Kafka, REST APIs, Git/GitHub, Claude Code \\
+    Spanish (fluent) $\diamond$ Security Clearance: Secret
+\end{rSection}
+
+\end{document}
