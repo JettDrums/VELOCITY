@@ -46,7 +46,7 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 
 | Item | Cost |
 |---|---|
-| AIAD, Palantir Technologies (Maven team), Palo Alto, CA (alternate: Shield AI), 21 days, Jun-Jul 2027 | $6,700 |
+| Research AIAD, MIT Center for Transportation & Logistics, Cambridge, MA (alternate: Stanford Gordian Knot Center), 21 days, Jun-Jul 2027 | $6,700 |
 | Cloud GPU compute, 250 hours | $500 |
 | Bertsimas and Tsitsiklis, *Introduction to Linear Optimization* | ~$90 |
 | Ahuja, Magnanti and Orlin, *Network Flows* | ~$120 |
@@ -54,8 +54,11 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 
 Check the textbook and compute prices before you submit.
 
+The Palantir/Maven AIAD is not in the budget. The memo says you would seek it through the Velocity Scholars' priority fill.
+
 ## Before 2 NOV
 
-1. Ask LTC Fukuzawa how Velocity Scholars' priority fill for Palantir AIADs works, and mention your contact with Mehdi Alhassani. A named Palantir contact makes the AIAD read as feasible.
-2. Message Mehdi Alhassani (reminder set) and ask whether a cadet could spend three weeks with the Maven team.
-3. If the non-RL baselines on the Taiwan network run before 2 NOV, add one finding to memo paragraph 3.
+1. Ask LTC Fukuzawa whether the Palantir and Shield AI AIADs are funded separately (the memo assumes they are), and mention your contact with Mehdi Alhassani.
+2. Ask LTC Webb whether a three-week research AIAD at MIT CTL is realistic and whether he can help coordinate it.
+3. Message Mehdi Alhassani about a summer AIAD with the Maven team. Don't say it would be self-funded.
+4. If the non-RL baselines on the Taiwan network run before 2 NOV, add one finding to memo paragraph 3.
