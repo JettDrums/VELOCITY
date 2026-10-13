@@ -21,7 +21,7 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 | 3 | Graduating Class | 2029 |
 | 4 | Security Clearance | SECRET |
 | 5 | Academic Major | Operations Research |
-| 6 | Minor or Second Major | N/A (finance is a specialization within the OR major; mention it if the form allows) |
+| 6 | Minor or Second Major | Artificial Intelligence minor |
 | 7 | Current CQPA | 3.571 |
 | 8 | Rate your interest in... | Rate AI/ML, optimization, and industry/Palantir engagement highest, so they match the memo |
 | 9 | CV/Resume | `Pezan_CV_DRAFT.docx`, saved as PDF |
