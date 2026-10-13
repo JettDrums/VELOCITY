@@ -30,6 +30,7 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 ## Remaining fill-ins
 
 - Memo date line: `[DD] October 2026`
+- AIAD dates: `[7-27 June 2027]` in the funding plan, travel table, and timeline
 
 ## Check before submitting
 
@@ -44,11 +45,16 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 
 ## Budget (within the $10,000 cap)
 
-| Item | Cost | Source |
-|---|---|---|
-| Research AIAD, MIT Center for Transportation & Logistics, Cambridge, MA (alternate: Stanford Gordian Knot Center), 21 days, Jun-Jul 2027 | $6,700 | The department's required AIAD estimate (Letter of Instruction para 3d and the memo template) |
-| Ahuja, Magnanti and Orlin, *Network Flows* (ISBN 9780136175490) | $224 | Pearson list price at time of drafting (pearson.com). The standard max-flow/min-cut reference behind the interdiction model. |
-| **Total** | **$6,924** | |
+| When | Item | Cost | Source |
+|---|---|---|---|
+| Jan 2027 | Ahuja, Magnanti and Orlin, *Network Flows* (ISBN 9780136175490), new | $224 | Pearson list price at time of drafting |
+| [7-27 Jun 2027] | Research AIAD, MIT CTL, Cambridge, MA (alternate: Gordian Knot Center) | $6,700 | Department's required AIAD estimate (LOI para 3d) |
+| | - Round-trip train travel | $200 | Estimate; check Amtrak fares when booking |
+| | - Meals and incidentals, 21 days x $92 | $1,932 | FY2027 federal per diem M&IE, Boston/Cambridge |
+| | - Lodging, 20 nights at ~$228 | $4,568 | Remainder of the $6,700; below the $305 June federal lodging rate |
+| | **Total** | **$6,924** | |
+
+Confirm the AIAD dates against your summer 2027 military training, and confirm the $305 lodging rate on gsa.gov (it came from a third-party per diem site).
 
 The Palantir/Maven AIAD is not in the budget. Paragraph 2 says you would seek it as a Velocity Scholar.
 
