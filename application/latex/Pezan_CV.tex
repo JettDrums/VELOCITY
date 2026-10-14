@@ -21,14 +21,14 @@
 
 % Keep each section heading on the same page as its first entry
 \let\oldsection\section
-\renewcommand{\section}{\needspace{6\baselineskip}\oldsection}
+\renewcommand{\section}{\needspace{7\baselineskip}\oldsection}
 
 % Bullets: en dash, tight spacing
 \setlist[itemize]{label=\textendash, leftmargin=1.6em, topsep=1pt, itemsep=0pt, parsep=0pt}
 
 % \entry{Organization}{Location}{Role}{Dates}
 \newcommand{\entry}[4]{%
-  \needspace{4\baselineskip}%
+  \needspace{3\baselineskip}%
   \textbf{#1}\hfill #2\\
   \textit{#3}\hfill #4\par}
 % \single{Title}{Detail}{Dates} - one-line entry (honors, certifications)
@@ -95,15 +95,20 @@
 \end{itemize}
 \proj{CFT Packing List}{dennis-pezan.com/cft.html}{https://dennis-pezan.com/cft.html}{2026}
 \begin{itemize}
-  \item Web tool that helps cadets organize and track gear for Cadet Field Training; deployed on Vercel from GitHub
+  \item JavaScript web tool that helps cadets organize and track gear for Cadet Field Training; saves progress in the browser and deploys on Vercel from GitHub
+\end{itemize}
+\proj{Mounger Writing Center Website Redesign}{dennis-pezan.com/mwc-redesign.html}{https://dennis-pezan.com/mwc-redesign.html}{2026}
+\begin{itemize}
+  \item Independent redesign concept (in progress) for West Point's writing center site, built in Next.js, TypeScript, and Tailwind CSS with a custom WebGL ink shader and editable content files for staff
 \end{itemize}
 
 %-------------------------------------------------------------- PROFESSIONAL DEVELOPMENT
+\newpage % page 2 starts here
 \section{Professional Development}
 \entry{Sea to Shining Sea Domestic AIAD}{California and Colorado}{Defense Technology and Innovation}{Summer 2026}
 \begin{itemize}
   \item Held in-depth discussions with leaders at Palantir, Stanford's Gordian Knot Center (Col. (Ret.) Joseph Felter, Jack Faherty), OpenAI, Apple, and Meta Reality Labs (CTO Andrew Bosworth) on how defense technology is developed, procured, and fielded
-  \item Topics included the barriers startups face in getting new technology to Army units, agentic AI and large language models for defense, supply-chain risk from geopolitical conflict, and the regulation of AI in national security
+  \item Topics: startup barriers to Army adoption, agentic AI and large language models for defense, supply-chain risk, and AI regulation
   \item Observed how the 4th Infantry Division employs and gives feedback on these systems under Next Generation Command and Control; visited U.S. Northern Command, NORAD, and the Cheyenne Mountain Complex
 \end{itemize}
 
@@ -114,6 +119,7 @@
 \begin{itemize}
   \item Endowed fellowship funding research travel, expert mentorship, and publication of original research
 \end{itemize}
+\single{Norwegian Foot March Badge}{Norwegian Armed Forces}{}
 \single{Sea to Shining Sea Fellowship}{United States Military Academy}{2026}
 \begin{itemize}
   \item Cross-disciplinary fellowship engaging cadets with senior leaders in national security, government, finance, and technology
@@ -121,9 +127,10 @@
 
 %-------------------------------------------------------------- LEADERSHIP
 \section{Leadership \& Service}
-\entry{Center for Enhanced Performance, USMA}{West Point, NY}{Cadet-in-Charge, MA103 Tutoring}{2026--Present}
+\entry{Center for Enhanced Performance, USMA}{West Point, NY}{Cadet-in-Charge, MA103 Data-Driven Modeling Tutoring}{2026--Present}
 \begin{itemize}
   \item Lead the full tutor staff for MA103, a core mathematics course with 1,010 cadets enrolled; direct tutoring coverage for every major graded event
+  \item Built a study site (\href{https://dennis-pezan.com/ma103-tutoring.html}{dennis-pezan.com/ma103-tutoring.html}) with two full-length practice exams, a mirror of a graded gate, and a 59-drill reference card, each with an answer key
   \item Certified tutor in mathematics, chemistry, and psychology since 2025
 \end{itemize}
 \compact{Mounger Writing Center, USMA}{Writing Consultant}{West Point, NY}{2026--Present}
@@ -155,8 +162,8 @@
 \section{Professional Experience}
 \entry{McDonald's}{Plainfield, IL}{Department Manager}{September 2022 -- July 2024}
 \begin{itemize}
-  \item Promoted at age 16 as the youngest department manager in the region; sustained 90\%+ customer satisfaction scores
-  \item Managed weekly scheduling for 80+ employees with 95\% on-time accuracy and oversaw \$20,000+ in weekly supply procurement
+  \item Promoted at age 16 as the region's youngest department manager; sustained 90\%+ customer satisfaction scores
+  \item Scheduled 80+ employees weekly with 95\% on-time accuracy; oversaw \$20,000+ in weekly supply procurement
   \item Owned the store's labor metric, holding it at or below 23.5\% month over month
 \end{itemize}
 \entry{GrayStone AI Solutions}{Remote}{Intern}{June -- July 2024}
@@ -166,8 +173,8 @@
 
 %-------------------------------------------------------------- SKILLS
 \section{Skills}
-\textbf{Technical:} Python (PyTorch, scikit-learn), SQL, Java \;|\; \textbf{Methods:} reinforcement learning, network optimization, machine learning \\
-\textbf{Certifications:} Software Engineering Job Simulation, JPMorgan Chase \& Co. (2026); Modern Data Architecture with Microsoft Fabric, Microsoft (2026) \\
+\textbf{Technical:} Python (PyTorch, scikit-learn), SQL, Java, JavaScript/TypeScript (Next.js) \;|\; \textbf{Methods:} reinforcement learning, network optimization, machine learning \\
+\textbf{Certifications:} JPMorgan Chase Software Engineering Job Simulation (2026); Microsoft Fabric Data Architecture (2026) \\
 \textbf{Languages:} Spanish (fluent) \;|\; \textbf{Clearance:} Secret
 
 \end{document}
