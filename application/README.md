@@ -32,7 +32,7 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 
 ## Remaining fill-ins
 
-- Memo date line: `[DD] October 2026`
+- Memo date: set to 2 November 2026 (the deadline); change it if you submit earlier
 - AIAD dates: `[7-27 June 2027]` in the funding plan, travel table, and timeline
 
 ## Check before submitting
