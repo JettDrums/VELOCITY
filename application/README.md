@@ -33,7 +33,9 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 ## Remaining fill-ins
 
 - Memo date: set to 2 November 2026 (the deadline); change it if you submit earlier
-- AIAD dates: `[7-27 June 2027]` in the funding plan, travel table, and timeline
+- SIEDS date `[Early May 2027]`: 2027 dates not posted yet (2025 was 2 May)
+- MORS 95th Symposium `[June 2027]`, `[Location TBA]`: not announced yet (94th was 8-11 June 2026 at USAFA)
+- Lincoln Laboratory AIAD `[12-30 July 2027]`: confirm against summer training and the AIAD slot
 
 ## Check before submitting
 
@@ -46,24 +48,29 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Mehdi Alhassani, Palantir, Palo Alto: https://www.linkedin.com/in/malhassani/ (a reminder to message him is set for Tue 13 Oct, 1900 ET)
 - Second Palantir host from the S2SS visit: name unknown. Ask Mehdi or the S2SS trip OIC.
 
-## Budget (within the $10,000 cap)
+## Budget (exactly $10,000)
 
-| When | Item | Cost | Source |
+Lodging and meals use FY2027 GSA per diem rates (api.gsa.gov, pulled 14 Oct 2026). Meals use the 75% rule on travel days. Airfare and train fares are estimates; check them when booking.
+
+| When | Event | Cost | Breakdown |
 |---|---|---|---|
-| Jan 2027 | Ahuja, Magnanti and Orlin, *Network Flows* (ISBN 9780136175490), new | $224 | Pearson list price at time of drafting |
-| [7-27 Jun 2027] | Research AIAD, MIT CTL, Cambridge, MA (alternate: Gordian Knot Center) | $6,700 | Department's required AIAD estimate (LOI para 3d) |
-| | - Round-trip train travel | $200 | Estimate; check Amtrak fares when booking |
-| | - Meals and incidentals, 21 days x $92 | $1,932 | FY2027 federal per diem M&IE, Boston/Cambridge |
-| | - Lodging, 20 nights at ~$228 | $4,568 | Remainder of the $6,700; below the $305 June federal lodging rate |
-| | **Total** | **$6,924** | |
+| 16-18 Mar 2027 | AUSA Global Force Symposium, Huntsville, AL (with Army Materiel Command) | $977 | $500 airfare (est.); 2 nights x $146; meals $74/day x 2.5 = $185. Registration was $0 for U.S. military in 2026; confirm cadets qualify when 2027 registration opens in Dec 2026 |
+| [Early May 2027] | IEEE SIEDS, UVA, Charlottesville, VA (present if accepted) | $512 | $250 train (est.); 1 night x $142; meals $80 x 1.5 = $120 |
+| 23-25 May 2027 | SCSP AI+ Expo, Washington, DC (24-25 May) plus hackathon if it runs again | $1,070 | $250 train (est.); 2 nights x $295; meals $92 x 2.5 = $230 |
+| [June 2027] | 95th MORS Symposium (present if accepted) | $1,329 | Estimated using the 2026 host city (Colorado Springs): $500 airfare; 3 nights x $176; meals $86 x 3.5 = $301 |
+| [12-30 Jul 2027] | AIAD, MIT Lincoln Laboratory, Lexington, MA | $5,703 | $200 train (est.); 20 nights x $187 (Burlington/Woburn rate); meals $86 x 20.5 = $1,763 |
+| | Registration and paper fees (SIEDS, MORS) | $409 | Remainder of the $10,000 |
+| | **Total** | **$10,000** | |
 
-Confirm the AIAD dates against your summer 2027 military training, and confirm the $305 lodging rate on gsa.gov (it came from a third-party per diem site).
+The LOI says to use $6,700 for an AIAD. The Lincoln Lab AIAD is costed at actual per diem ($5,703) instead, which is what lets five trips fit under the cap. If LTC Fukuzawa wants the $6,700 figure, drop the MORS trip.
 
 The Palantir/Maven AIAD is not in the budget. Paragraph 2 says you would seek it as a Velocity Scholar.
+
+Old MIT CTL version of the plan: `fill_v1_mitctl.py` in the scratch build (not in the repo); the previous memo is in git history.
 
 ## Before 2 NOV
 
 1. Ask LTC Fukuzawa whether the Palantir and Shield AI AIADs are funded separately (the memo assumes they are), and mention your contact with Mehdi Alhassani.
-2. Ask LTC Webb whether a three-week research AIAD at MIT CTL is realistic and whether he can help coordinate it.
+2. Ask LTC Webb whether the Taiwan study can be ready for a SIEDS abstract (due around February) and a MORS working group, and whether he has a contact at MIT Lincoln Laboratory for the AIAD.
 3. Message Mehdi Alhassani about a summer AIAD with the Maven team. Don't say it would be self-funded.
 4. If the non-RL baselines on the Taiwan network run before 2 NOV, add one finding to memo paragraph 3.
