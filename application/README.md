@@ -48,25 +48,9 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Mehdi Alhassani, Palantir, Palo Alto: https://www.linkedin.com/in/malhassani/ (a reminder to message him is set for Tue 13 Oct, 1900 ET)
 - Second Palantir host from the S2SS visit: name unknown. Ask Mehdi or the S2SS trip OIC.
 
-## Budget (exactly $10,000)
+## Budget
 
-Lodging and meals use FY2027 GSA per diem rates (api.gsa.gov, pulled 14 Oct 2026). Meals use the 75% rule on travel days. Airfare and train fares are estimates; check them when booking.
-
-| When | Event | Cost | Breakdown |
-|---|---|---|---|
-| 16-18 Mar 2027 | AUSA Global Force Symposium, Huntsville, AL (with Army Materiel Command) | $977 | $500 airfare (est.); 2 nights x $146; meals $74/day x 2.5 = $185. Registration was $0 for U.S. military in 2026; confirm cadets qualify when 2027 registration opens in Dec 2026 |
-| [Early May 2027] | IEEE SIEDS, UVA, Charlottesville, VA (present if accepted) | $512 | $250 train (est.); 1 night x $142; meals $80 x 1.5 = $120 |
-| 23-25 May 2027 | SCSP AI+ Expo, Washington, DC (24-25 May) plus hackathon if it runs again | $1,070 | $250 train (est.); 2 nights x $295; meals $92 x 2.5 = $230 |
-| [June 2027] | 95th MORS Symposium (present if accepted) | $1,329 | Estimated using the 2026 host city (Colorado Springs): $500 airfare; 3 nights x $176; meals $86 x 3.5 = $301 |
-| [12-30 Jul 2027] | AIAD, MIT Lincoln Laboratory, Lexington, MA | $5,703 | $200 train (est.); 20 nights x $187 (Burlington/Woburn rate); meals $86 x 20.5 = $1,763 |
-| | Registration and paper fees (SIEDS, MORS) | $409 | Remainder of the $10,000 |
-| | **Total** | **$10,000** | |
-
-The LOI says to use $6,700 for an AIAD. The Lincoln Lab AIAD is costed at actual per diem ($5,703) instead, which is what lets five trips fit under the cap. If LTC Fukuzawa wants the $6,700 figure, drop the MORS trip.
-
-The Palantir/Maven AIAD is not in the budget. Paragraph 2 says you would seek it as a Velocity Scholar.
-
-Old MIT CTL version of the plan: `fill_v1_mitctl.py` in the scratch build (not in the repo); the previous memo is in git history.
+Paragraph 4 is now a plain list of ideas. The budget table, total, and timeline are blank ([TBD]) until after the advisor meetings. The fully costed version (FY2027 GSA per diem, $10,000 total) is in commit a720bbd if you want the numbers back.
 
 ## Before 2 NOV
 
