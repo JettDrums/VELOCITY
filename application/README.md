@@ -48,18 +48,19 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Mehdi Alhassani, Palantir, Palo Alto: https://www.linkedin.com/in/malhassani/ (a reminder to message him is set for Tue 13 Oct, 1900 ET)
 - Second Palantir host from the S2SS visit: name unknown. Ask Mehdi or the S2SS trip OIC.
 
-## Budget (priority order, $9,000 of $10,000)
+## Budget ($8,700 requested; conferences in priority order)
 
-Built on your edited memo from the LTC Kuiper meeting. Uses his guidance: $6,700 per AIAD and $2,000 per conference (the LOI estimates).
+LTC Kuiper's guidance: $6,700 per AIAD and $2,000 per conference (the LOI estimates), conferences listed by priority rather than all at once.
 
-| Priority | When | Event | Cost | Notes |
-|---|---|---|---|---|
-| 1 | [12-30 Jul 2027] | AIAD, MIT Lincoln Laboratory, Lexington, MA | $6,700 | LOI AIAD estimate. Actual per diem is about $5,700 (20 nights x $187 + meals + train) |
-| 2 | 24-25 May 2027 | SCSP AI+ Expo (+ hackathon if it runs again), Washington, DC | $2,000 | LOI conference estimate. Admission was free in 2026; 2027 listing says "free tier available" |
-| 3 | [Feb 2027] | HackNYU, New York University | $300 | Bus fare and meals; you can go there and back from West Point. 2027 dates not posted yet; confirm student registration is free |
-| | | **Total** | **$9,000** | $1,000 left. Options: SIEDS (~$500), or a second hackathon |
+| | When | Event | Cost |
+|---|---|---|---|
+| AIAD | [12-30 Jul 2027] | MIT Lincoln Laboratory, Lexington, MA (alternate: Duke ECE, LTC Kuiper's doctoral department) | $6,700 |
+| Priority 1 | 24-25 May 2027 | SCSP AI+ Expo + hackathon, Washington, DC (admission free) | $2,000 |
+| Priority 2 (alternate) | [Early May 2027] | IEEE SIEDS, UVA (present if accepted; IEEE Xplore) | $2,000 |
+| Priority 3 (alternate) | 16-18 Mar 2027 | AUSA Global Force Symposium, Huntsville, AL (registration free for military) | $2,000 |
+| | | **Requested: AIAD + Priority 1** | **$8,700** |
 
-The fully costed five-event version is in commit a720bbd.
+Confirm with LTC Kuiper the exact name of the Duke program he meant; the memo says "Duke University's Department of Electrical and Computer Engineering."
 
 ## Before 2 NOV
 
