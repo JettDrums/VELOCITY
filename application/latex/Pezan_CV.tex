@@ -5,26 +5,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[10pt,letterpaper]{article}
-\usepackage[left=0.55in,right=0.55in,top=0.4in,bottom=0.4in]{geometry}
+\usepackage[left=0.55in,right=0.55in,top=0.35in,bottom=0.35in]{geometry}
 \usepackage{mathptmx}            % Times font
 \usepackage[T1]{fontenc}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{needspace}           % keeps each entry on one page
 \usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
 \pagestyle{empty}
+% Red placeholder for a start month not yet confirmed; replace each \mon with the month (e.g., Aug)
+\newcommand{\mon}{\textcolor{red}{[Mon]}}
 \setlength{\parindent}{0pt}
 
 % Section headings: bold small caps with a rule underneath
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}[\vspace{-6pt}\rule{\textwidth}{0.6pt}]
-\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titlespacing*{\section}{0pt}{5pt}{3pt}
 
 % Keep each section heading on the same page as its first entry
 \let\oldsection\section
 \renewcommand{\section}{\needspace{7\baselineskip}\oldsection}
 
 % Bullets: en dash, tight spacing
-\setlist[itemize]{label=\textendash, leftmargin=1.6em, topsep=1pt, itemsep=0pt, parsep=0pt}
+\setlist[itemize]{label=\textendash, leftmargin=1.6em, topsep=0pt, itemsep=0pt, parsep=0pt}
 
 % \entry{Organization}{Location}{Role}{Dates}
 \newcommand{\entry}[4]{%
@@ -55,32 +58,29 @@
 
 %-------------------------------------------------------------- EDUCATION
 \section{Education}
-\entry{United States Military Academy at West Point}{West Point, NY}{B.S., Operations Research (Finance Specialization), Minor in Artificial Intelligence}{Class of 2029}
+\entry{United States Military Academy at West Point}{West Point, NY}{B.S., Operations Research (Finance Specialization), Minor in Artificial Intelligence}{Expected May 2029}
 \begin{itemize}
-  \item CQPA: 3.571 \;|\; Dean's List, Fall 2025 and Spring 2026 \;|\; Secret Clearance
+  \item CQPA: 3.571 \;|\; Dean's List, Fall 2025 and Spring 2026
   \item Research Project: Threat-Adaptive Interdiction of Taiwan's Crude Oil Supply (Advisor: LTC Matthew Webb)
 \end{itemize}
 
 %-------------------------------------------------------------- RESEARCH
 \section{Research Experience}
-\entry{MIT Center for Transportation \& Logistics -- USMA Research}{West Point, NY}{Undergraduate Researcher, Network Interdiction for Contested Logistics (Advisor: LTC Matthew Webb)}{2026--Present}
+\entry{Contested Logistics / Network Interdiction Research -- D/Math, USMA}{West Point, NY}{Undergraduate Researcher (Advisor: LTC Matthew Webb)}{Jul 2026 -- Present}
 \begin{itemize}
-  \item Project: Threat-Adaptive Interdiction of Taiwan's Crude Oil Supply; extends LTC Webb's MIT Center for Transportation \& Logistics doctoral research on reinforcement learning for maximum-flow network interdiction
-  \item Investigate how to optimally attack and defend military logistics networks under adversarial interdiction, applying network optimization, game theory, and Markov decision processes
-  \item Built a 57-node, 79-edge open-source model of Taiwan's crude oil import network (four sources, major straits and canals, three ports) with sourced capacities
-  \item Designed a fixed-budget adversary action set of seven action types, each with a cost and success probability anchored on historical events
-  \item Connected the network to a reinforcement-learning interdiction environment and verified it against an independent max-flow calculation; identified and fixed a targeting-filter issue that could hide the Strait of Hormuz
+  \item Study how to attack and defend military logistics networks under adversarial interdiction with network optimization, game theory, and Markov decision processes, extending LTC Webb's doctoral research on reinforcement learning for maximum-flow network interdiction
+  \item Built a 57-node, 79-edge open-source model of Taiwan's crude oil import network with sourced capacities and a fixed-budget adversary action set of seven costed action types anchored on historical events
+  \item Connected the network to a reinforcement-learning interdiction environment, verified it against an independent max-flow calculation, and fixed a targeting-filter issue that could hide the Strait of Hormuz
 \end{itemize}
 
-\entry{Transformation Decision Analysis Center (TDAC), U.S. Army}{Fort Lee, VA}{Research Intern, Modeling \& Analysis Division (AIAD; Mentor: MAJ Erica Mikelson)}{Summer 2026}
+\entry{Reinforcement Learning for Contested Resupply -- TDAC, U.S. Army}{Fort Lee, VA}{Research Intern, Modeling \& Analysis Division (AIAD; Mentor: MAJ Erica Mikelson)}{Jun 2026 -- Jul 2026}
 \begin{itemize}
   \item Redesigned the reward function for a proximal policy optimization (PPO) reinforcement-learning agent that allocates resupply in Logistics Battle Command, the Army's stochastic sustainment simulation; trained and evaluated the agent in Python (PyTorch)
-  \item Built two diagnostic tools that exposed four reward flaws, including an agent that outscored every baseline while starving the priority unit during engagements
-  \item Retrained agent more than tripled the share of requests filled and outperformed a hand-coded priority-aware baseline across 101 random seeds
+  \item Built two diagnostic tools that exposed four reward flaws, including an agent that outscored every baseline while starving the priority unit; the retrained agent more than tripled the share of requests filled and beat a hand-coded priority-aware baseline across 101 random seeds
   \item Presented findings to Branch Chief LTC Ryan Miller at Fort Lee and, by call, to TDAC's AI and reinforcement-learning researchers (LTC Joseph Pedersen) at the Naval Postgraduate School in Monterey, CA
 \end{itemize}
 
-\entry{Department of Mathematical Sciences, USMA}{West Point, NY}{Independent Study in Machine Learning (MA289), Advisor: LTC Patrick Kuiper}{2025--2026}
+\entry{Tree-Based Methods in Machine Learning -- D/Math, USMA}{West Point, NY}{Independent Study in Machine Learning (MA289), Advisor: LTC Patrick Kuiper}{Oct 2025 -- May 2026}
 \begin{itemize}
   \item Designed and completed an independent study of decision trees, bagging, and random forests, and presented the findings to officers
   \item Built an interactive random forest research site with a live classifier demonstration and hyperparameter explorer
@@ -99,19 +99,19 @@
 \end{itemize}
 \proj{Reward Engineering Case Study}{dennis-pezan.com/rl-reward.html}{https://dennis-pezan.com/rl-reward.html}{2026}
 \begin{itemize}
-  \item Public write-up diagnosing and correcting reward hacking in a simulated shipping network; requests met rose from 24\% to 81\%
+  \item Public write-up diagnosing and correcting reward hacking in a simulated shipping network and raising requests met from 24\% to 81\%
 \end{itemize}
-\proj{Mounger Writing Center Website Redesign}{dennis-pezan.com/mwc-redesign.html}{https://dennis-pezan.com/mwc-redesign.html}{2026}
+\proj{Mounger Writing Center Website Redesign}{dennis-pezan.com/mwc-redesign.html}{https://dennis-pezan.com/mwc-redesign.html}{Aug 2026 -- Present}
 \begin{itemize}
-  \item Independent redesign concept (in progress) for West Point's writing center site, built in Next.js, TypeScript, and Tailwind CSS with a custom WebGL ink shader and editable content files for staff
+  \item Independent redesign concept for West Point's writing center site, built in Next.js, TypeScript, and Tailwind CSS with a custom WebGL ink shader and editable content files for staff
 \end{itemize}
 
 %-------------------------------------------------------------- PROFESSIONAL DEVELOPMENT
-\newpage % page 2 starts here
+% (no forced page break; needspace keeps headings with their first entry)
 \section{Professional Development}
-\entry{Sea to Shining Sea Domestic AIAD}{California and Colorado}{Defense Technology and Innovation}{Summer 2026}
+\entry{Sea to Shining Sea Domestic AIAD}{California and Colorado}{Defense Technology and Innovation}{\mon\ 2026}
 \begin{itemize}
-  \item Held in-depth discussions with leaders at Palantir, Stanford's Gordian Knot Center (Col. (Ret.) Joseph Felter, Jack Faherty), OpenAI, Apple, and Meta Reality Labs (CTO Andrew Bosworth) on how defense technology is developed, procured, and fielded
+  \item Held in-depth discussions with leaders at Palantir, Stanford's Gordian Knot Center, OpenAI, Apple, and Meta Reality Labs on how defense technology is developed, procured, and fielded
   \item Topics: startup barriers to Army adoption, agentic AI and large language models for defense, supply-chain risk, and AI regulation
   \item Observed how the 4th Infantry Division employs and gives feedback on these systems under Next Generation Command and Control; visited U.S. Northern Command, NORAD, and the Cheyenne Mountain Complex
 \end{itemize}
@@ -131,51 +131,50 @@
 
 %-------------------------------------------------------------- LEADERSHIP
 \section{Leadership \& Service}
-\entry{Center for Enhanced Performance, USMA}{West Point, NY}{Cadet-in-Charge, MA103 Data-Driven Modeling Tutoring}{2026--Present}
+\entry{Center for Enhanced Performance, USMA}{West Point, NY}{Cadet-in-Charge, MA103 Data-Driven Modeling Tutoring}{\mon\ 2026 -- Present}
 \begin{itemize}
   \item Lead the full tutor staff for MA103, a core mathematics course with 1,010 cadets enrolled; direct tutoring coverage for every major graded event
   \item Built a study site (\href{https://dennis-pezan.com/ma103-tutoring.html}{dennis-pezan.com/ma103-tutoring.html}) with two full-length practice exams, a mirror of a graded gate, and a 59-drill reference card, each with an answer key
 \end{itemize}
-\compact{Mounger Writing Center, USMA}{Writing Consultant}{West Point, NY}{2026--Present}
+\entry{Mounger Writing Center, USMA}{West Point, NY}{Writing Consultant}{\mon\ 2026 -- Present}
 \begin{itemize}
   \item Selected as a Stokes Writing Fellow to coach cadets on strengthening the rhetoric and argument of their writing
 \end{itemize}
-\compact{CLD-STEM Outreach Program, USMA}{Member}{West Point, NY}{2025--Present}
+\entry{CLD-STEM Outreach Program, USMA}{West Point, NY}{Member}{\mon\ 2025 -- Present}
 \begin{itemize}
   \item Bring hands-on STEM projects to students, reaching 800+ students across the Chicagoland and Greater Los Angeles areas
 \end{itemize}
-\compact{Cadet Ambassador Program, USMA}{Cadet Ambassador}{West Point, NY}{2025--Present}
+\entry{Cadet Ambassador Program, USMA}{West Point, NY}{Cadet Ambassador}{\mon\ 2025 -- Present}
 \begin{itemize}
   \item Represent West Point in outreach to prospective cadets and help foster a welcoming environment for future applicants
 \end{itemize}
-\compact{Finance Club, USMA}{Member}{West Point, NY}{2025--Present}
+\entry{Finance Club, USMA}{West Point, NY}{Member}{\mon\ 2025 -- Present}
 \begin{itemize}
-  \item Engage with industry executives from companies including Palantir, Uber, and Meta
+  \item Engage with industry executives from companies including Palantir, Uber, and Meta on leadership in business, business ethics, and personal finance
 \end{itemize}
-\compact{Recycle \& Reboot}{Volunteer Senior Publicist}{Plainfield, IL}{2024}
+\entry{Recycle \& Reboot}{Plainfield, IL}{Volunteer Senior Publicist}{Jan 2024 -- \mon\ 2024}
 \begin{itemize}
   \item Led outreach to secure donated technology; helped refurbish and distribute 100+ computers to underserved communities
 \end{itemize}
-\compact{Illinois Premier Boys State}{Candidate}{Illinois}{2024}
+\entry{Illinois Premier Boys State}{Illinois}{Candidate}{Jun 2024}
 \begin{itemize}
   \item Elected Alderman and Township Supervisor; advanced to the Lieutenant Governor primary through competitive public speaking
 \end{itemize}
 
 %-------------------------------------------------------------- EXPERIENCE
 \section{Professional Experience}
-\entry{McDonald's}{Plainfield, IL}{Department Manager}{September 2022 -- July 2024}
+\entry{McDonald's}{Plainfield, IL}{Department Manager}{Sep 2022 -- Jul 2024}
 \begin{itemize}
   \item Promoted at age 16 as the region's youngest department manager; sustained 90\%+ customer satisfaction scores
   \item Scheduled 80+ employees weekly with 95\% on-time accuracy; oversaw \$20,000+ in weekly supply procurement
-  \item Owned the store's labor metric, holding it at or below 23.5\% month over month
 \end{itemize}
-\entry{GrayStone AI Solutions}{Remote}{Intern}{June -- July 2024}
+\entry{GrayStone AI Solutions}{Remote}{Intern}{Jun 2024 -- Jul 2024}
 \begin{itemize}
   \item Built Python and Excel tools to support financial planning and analysis workflows
 \end{itemize}
 
 %-------------------------------------------------------------- SKILLS
-\section{Skills}
+\needspace{5\baselineskip}\oldsection{Skills} % short section: needs 5 lines, not 7
 \textbf{Technical:} Python (PyTorch, scikit-learn), SQL, Java, JavaScript/TypeScript (Next.js) \;|\; \textbf{Methods:} reinforcement learning, network optimization, machine learning \\
 \textbf{Certifications:} JPMorgan Chase Software Engineering Job Simulation (2026); Microsoft Fabric Data Architecture (2026) \\
 \textbf{Languages:} Spanish (fluent) \;|\; \textbf{Clearance:} Secret

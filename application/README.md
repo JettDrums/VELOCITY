@@ -48,18 +48,19 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Mehdi Alhassani, Palantir, Palo Alto: https://www.linkedin.com/in/malhassani/ (a reminder to message him is set for Tue 13 Oct, 1900 ET)
 - Second Palantir host from the S2SS visit: name unknown. Ask Mehdi or the S2SS trip OIC.
 
-## Budget ($9,497 requested; conferences in priority order)
+## Budget ($9,497: one AIAD, one conference, three courses)
 
-| | When | Item | Cost |
-|---|---|---|---|
-| AIAD | 11-31 Jul 2027 | MIT Lincoln Laboratory (alternate, Duke ECE) | $6,700 |
-| Priority 1 | 24-25 May 2027 | SCSP AI+ Expo + hackathon, Washington, DC | $2,000 |
-| Priority 2 (alternate) | Early May 2027 | IEEE SIEDS, UVA | $2,000 |
-| Priority 3 (alternate) | 16-18 Mar 2027 | AUSA Global Force Symposium, Huntsville, AL | $2,000 |
-| Courses | 2027 | MITx Supply Chain Management: SC0x ($199), SC1x ($299), SC2x ($299) | $797 |
-| | | **Requested: AIAD + Priority 1 + courses** | **$9,497** |
+Per LTC Webb: options in priority order, one shared estimate per group.
 
-Course prices are from MIT Learn's support page (Oct 2026); MIT notes they may change.
+| Group | Primary | Alternate 1 | Alternate 2 | Cost |
+|---|---|---|---|---|
+| AIAD | Palantir or Shield AI (priority fill) | MIT Lincoln Laboratory, 11-31 Jul 2027 | Duke ECE | $6,700 |
+| Conference | SCSP AI+ Expo + hackathon, 24-25 May 2027 | IEEE SIEDS, early May 2027 | AUSA Global Force, 16-18 Mar 2027 | $2,000 |
+| Courses | MITx SC0x ($199), SC1x ($299), SC2x ($299) | | | $797 |
+
+## CV months still to fill in (red [Mon] in latex/Pezan_CV.tex)
+
+S2SS AIAD (2026), CEP Cadet-in-Charge (2026), Mounger Writing Consultant (2026), CLD-STEM (2025), Cadet Ambassador (2025), Finance Club (2025), Recycle & Reboot end month (2024).
 
 ## Before 2 NOV
 
