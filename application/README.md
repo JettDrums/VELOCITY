@@ -48,19 +48,18 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Mehdi Alhassani, Palantir, Palo Alto: https://www.linkedin.com/in/malhassani/ (a reminder to message him is set for Tue 13 Oct, 1900 ET)
 - Second Palantir host from the S2SS visit: name unknown. Ask Mehdi or the S2SS trip OIC.
 
-## Budget ($8,700 requested; conferences in priority order)
+## Budget ($9,497 requested; conferences in priority order)
 
-LTC Kuiper's guidance: $6,700 per AIAD and $2,000 per conference (the LOI estimates), conferences listed by priority rather than all at once.
-
-| | When | Event | Cost |
+| | When | Item | Cost |
 |---|---|---|---|
-| AIAD | [12-30 Jul 2027] | MIT Lincoln Laboratory, Lexington, MA (alternate: Duke ECE, LTC Kuiper's doctoral department) | $6,700 |
-| Priority 1 | 24-25 May 2027 | SCSP AI+ Expo + hackathon, Washington, DC (admission free) | $2,000 |
-| Priority 2 (alternate) | [Early May 2027] | IEEE SIEDS, UVA (present if accepted; IEEE Xplore) | $2,000 |
-| Priority 3 (alternate) | 16-18 Mar 2027 | AUSA Global Force Symposium, Huntsville, AL (registration free for military) | $2,000 |
-| | | **Requested: AIAD + Priority 1** | **$8,700** |
+| AIAD | 11-31 Jul 2027 | MIT Lincoln Laboratory (alternate, Duke ECE) | $6,700 |
+| Priority 1 | 24-25 May 2027 | SCSP AI+ Expo + hackathon, Washington, DC | $2,000 |
+| Priority 2 (alternate) | Early May 2027 | IEEE SIEDS, UVA | $2,000 |
+| Priority 3 (alternate) | 16-18 Mar 2027 | AUSA Global Force Symposium, Huntsville, AL | $2,000 |
+| Courses | 2027 | MITx Supply Chain Management: SC0x ($199), SC1x ($299), SC2x ($299) | $797 |
+| | | **Requested: AIAD + Priority 1 + courses** | **$9,497** |
 
-Confirm with LTC Kuiper the exact name of the Duke program he meant; the memo says "Duke University's Department of Electrical and Computer Engineering."
+Course prices are from MIT Learn's support page (Oct 2026); MIT notes they may change.
 
 ## Before 2 NOV
 
