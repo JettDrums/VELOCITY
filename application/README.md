@@ -58,9 +58,9 @@ Per LTC Webb: options in priority order, one shared estimate per group.
 | Conference | SCSP AI+ Expo + hackathon, 24-25 May 2027 | IEEE SIEDS, early May 2027 | AUSA Global Force, 16-18 Mar 2027 | $2,000 |
 | Courses | MITx SC0x ($199), SC1x ($299), SC2x ($299) | | | $797 |
 
-## CV months still to fill in (red [Mon] in latex/Pezan_CV.tex)
+## How the Taiwan model is scored (in memo para 3 and CV, per LTC Webb)
 
-S2SS AIAD (2026), CEP Cadet-in-Charge (2026), Mounger Writing Consultant (2026), CLD-STEM (2025), Cadet Ambassador (2025), Finance Club (2025), Recycle & Reboot end month (2024).
+Score = expected % of Taiwan's crude demand still delivered after China spends its budget of 100 (averaged over action success, Taiwan reroutes). Lower = better plan for China. Benchmarks (base case): do nothing 100%, random ~90%, greedy 70%, exact solver TBD. Six sensitivity cases: base, costs lower/higher, demand up/down, Hormuz shut.
 
 ## Before 2 NOV
 
