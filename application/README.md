@@ -61,7 +61,7 @@ Commitments made in the memo (keep them): brief LTC Webb and the DXDT committee 
 
 ## How the Taiwan model is scored (in memo para 3 and CV, per LTC Webb)
 
-Score = expected % of Taiwan's crude demand still delivered after China spends its budget of 100 (averaged over action success, Taiwan reroutes). Lower = better plan for China. Benchmarks (base case): do nothing 100%, random ~90%, greedy 70%, exact solver TBD. Six sensitivity cases: base, costs lower/higher, demand up/down, Hormuz shut.
+Model (per dennis-pezan.com/ma289-27-1.html): 61 nodes, 83 edges, 59 interdictable, nine action types, budget 100. Score = expected % of Taiwan's crude demand still delivered after China spends its budget of 100 (averaged over action success, Taiwan reroutes). Lower = better plan for China. Benchmarks (base case): do nothing 100%, random ~90%, greedy 70%, exact solver TBD. Six sensitivity cases: base, costs lower/higher, demand up/down, Hormuz shut.
 
 ## Before 2 NOV
 
