@@ -48,15 +48,16 @@ Upload both as PDF (File > Save As > PDF) after you remove all highlights.
 - Mehdi Alhassani, Palantir, Palo Alto: https://www.linkedin.com/in/malhassani/ (a reminder to message him is set for Tue 13 Oct, 1900 ET)
 - Second Palantir host from the S2SS visit: name unknown. Ask Mehdi or the S2SS trip OIC.
 
-## Budget ($9,497: one AIAD, one conference, three courses)
+## Budget ($9,997)
 
-Per LTC Webb: options in priority order, one shared estimate per group.
+| Group | Primary | Alternate 1 | Cost |
+|---|---|---|---|
+| AIAD | Palantir or Shield AI (priority fill) | MIT Lincoln Laboratory, 11-31 Jul 2027 | $6,700 |
+| Conference | SCSP AI+ Expo + hackathon, 24-25 May 2027 | IEEE SIEDS, early May 2027 | $2,000 |
+| Courses | MITx SC0x ($199), SC1x ($299), SC2x ($299) | | $797 |
+| Software | Claude Enterprise subscription (Anthropic) | | $500 |
 
-| Group | Primary | Alternate 1 | Alternate 2 | Cost |
-|---|---|---|---|---|
-| AIAD | Palantir or Shield AI (priority fill) | MIT Lincoln Laboratory, 11-31 Jul 2027 | Duke ECE | $6,700 |
-| Conference | SCSP AI+ Expo + hackathon, 24-25 May 2027 | IEEE SIEDS, early May 2027 | AUSA Global Force, 16-18 Mar 2027 | $2,000 |
-| Courses | MITx SC0x ($199), SC1x ($299), SC2x ($299) | | | $797 |
+Commitments made in the memo (keep them): brief LTC Webb and the DXDT committee within 30 days of the AIAD; two-page AAR for the next Velocity cohort; one-page RL testing checklist (if Lincoln Lab); recruit hackathon team from OR/math majors and bring back a firm/POC list; MA103 tutoring problems from SC0x; AI-assisted research guide; open-source data only in Claude.
 
 ## How the Taiwan model is scored (in memo para 3 and CV, per LTC Webb)
 
