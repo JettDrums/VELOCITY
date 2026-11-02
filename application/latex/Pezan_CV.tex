@@ -16,6 +16,7 @@
 \pagestyle{empty}
 % Red placeholder for a start month not yet confirmed; replace each \mon with the month (e.g., Aug)
 \newcommand{\mon}{\textcolor{red}{[Mon]}}
+\newcommand{\tbd}[1]{\textcolor{red}{[#1]}}
 \setlength{\parindent}{0pt}
 
 % Section headings: bold small caps with a rule underneath
@@ -68,9 +69,9 @@
 \section{Research Experience}
 \entry{Contested Logistics / Network Interdiction Research -- D/Math, USMA}{West Point, NY}{Undergraduate Researcher (Advisor: LTC Matthew Webb)}{Jul 2026 -- Present}
 \begin{itemize}
-  \item Extend LTC Webb's doctoral research on reinforcement learning for maximum-flow network interdiction to a 61-node, 83-edge open-source model of Taiwan's crude oil import network with sourced capacities and nine costed adversary action types anchored on historical events
+  \item Extend LTC Webb's doctoral research on reinforcement learning for maximum-flow network interdiction to a 61-node, 83-edge open-source model of Taiwan's crude oil import network with nine costed adversary action types and 59 interdictable components
   \item Connected the network to a reinforcement-learning interdiction environment, verified it against an independent max-flow calculation, and fixed a targeting-filter issue that could hide the Strait of Hormuz
-  \item Score each adversary plan by the expected share of Taiwan's crude demand still delivered after rerouting; the agent must beat random plans (about 90\%) and a greedy baseline (70\%) and approach an exact solver across six sensitivity cases
+  \item Trained an agent for 39 hours whose base-case plan matches the exact optimum (Taiwan keeps 31.7\% of demand), against random (about 90\%) and greedy (70\%) baselines; six sensitivity scenarios still to run
 \end{itemize}
 
 \entry{Reinforcement Learning for Contested Resupply -- TDAC, U.S. Army}{Fort Lee, VA}{Research Intern, Modeling \& Analysis Division (AIAD; Mentor: MAJ Erica Mikelson)}{Jul 2026}
@@ -88,6 +89,10 @@
 
 %-------------------------------------------------------------- PROJECTS
 \section{Projects}
+\entry{Data4Good Competition}{Nationwide}{Team Member}{\tbd{Mon} 2026 -- Present}
+\begin{itemize}
+  \item Team currently ranks first in a 13-state region; on track to present at Johns Hopkins University
+\end{itemize}
 \proj{Tree-Based Methods Research Site}{dennis-pezan.com/ma289.html}{https://dennis-pezan.com/ma289.html}{2026}
 \begin{itemize}
   \item Trained and evaluated decision trees, bagging, and random forests on the Titanic dataset in Python (scikit-learn) on an identical 80/20 split
@@ -107,12 +112,12 @@
 \end{itemize}
 
 %-------------------------------------------------------------- PROFESSIONAL DEVELOPMENT
-% (no forced page break; needspace keeps headings with their first entry)
+\newpage % page 2 starts with Professional Development
 \section{Professional Development}
 \entry{S2SS Technology and Innovation AIAD -- SOSH, USMA}{California and Colorado}{Summer AIAD on defense technology (separate from the academic-year Sea to Shining Sea Fellowship)}{Jun 2026}
 \begin{itemize}
   \item Held in-depth discussions with leaders at Palantir, Stanford's Gordian Knot Center, OpenAI, Apple, and Meta Reality Labs on how defense technology is developed, procured, and fielded
-  \item Topics: startup barriers to Army adoption, agentic AI and large language models for defense, supply-chain risk, and AI regulation
+
   \item Observed how the 4th Infantry Division employs and gives feedback on these systems under Next Generation Command and Control; visited U.S. Northern Command, NORAD, and the Cheyenne Mountain Complex
 \end{itemize}
 
@@ -120,11 +125,11 @@
 \section{Honors \& Awards}
 \single{Sea to Shining Sea Fellowship}{United States Military Academy}{2026--Present}
 \begin{itemize}
-  \item Academic-year fellowship engaging cadets with senior leaders in national security, government, finance, and technology; separate from the summer Technology and Innovation AIAD
+  \item Academic-year fellowship with senior leaders in national security, government, finance, and technology; separate from the AIAD
 \end{itemize}
 \single{Stokes Writing Fellowship}{United States Military Academy}{2026--Present}
 \begin{itemize}
-  \item Endowed fellowship that sponsors research trips, conferences, and expos, with expert mentorship and support for publishing original research
+  \item Endowed fellowship that sponsors research trips, conferences, and expos, with mentorship for publishing original research
 \end{itemize}
 \single{Norwegian Foot March Badge}{Norwegian Armed Forces}{2026}
 \single{Dean's List}{United States Military Academy}{Fall 2025, Spring 2026}
@@ -135,7 +140,7 @@
 \begin{itemize}
   \item Founded and lead a startup of 18 cadets and graduate students working to build software together
   \item Established and administer an enterprise-level Claude environment, providing team members with shared AI capabilities to support software development and product creation
-  \item Coordinate distributed development teams collaborating to design, build, and prepare consumer software products for publication, including a dating application, multiplayer first-person shooter game, and graphic design tools
+  \item Coordinate teams building consumer software, including a dating app, a multiplayer game, and design tools
 \end{itemize}
 \entry{Center for Enhanced Performance, USMA}{West Point, NY}{Cadet-in-Charge, MA103 Data-Driven Modeling Tutoring}{Aug 2026 -- Present}
 \begin{itemize}
@@ -149,23 +154,19 @@
 \entry{Center for Leader Development in STEM (CLD-STEM), USMA}{West Point, NY}{Member}{Oct 2025 -- Present}
 \begin{itemize}
   \item Bring hands-on STEM projects to students, reaching 800+ students across the Chicagoland and Greater Los Angeles areas
-  \item Selected to facilitate leadership and ethical decision-making workshops and a Q\&A panel for 150+ high school students at a West Point Leaders of Character Seminar in Mesquite, TX, with the Directorate of Admissions
+  \item Selected to lead leadership and ethics workshops for 150+ Texas high school students at a West Point Leaders of Character Seminar
 \end{itemize}
 \entry{Cadet Ambassador Program, USMA}{West Point, NY}{Cadet Ambassador}{Jan 2026 -- Present}
 \begin{itemize}
   \item Represent West Point in outreach to prospective cadets and help foster a welcoming environment for future applicants
 \end{itemize}
-\entry{Recycle \& Reboot}{Plainfield, IL}{Volunteer Senior Publicist}{May 2024 -- Aug 2024}
-\begin{itemize}
-  \item Led outreach to secure donated technology; helped refurbish and distribute 100+ computers to underserved communities
-\end{itemize}
-\entry{Illinois Premier Boys State}{Illinois}{Candidate}{Jun 2024}
-\begin{itemize}
-  \item Elected Alderman and Township Supervisor; advanced to the Lieutenant Governor primary through competitive public speaking
-\end{itemize}
 
 %-------------------------------------------------------------- EXPERIENCE
 \section{Professional Experience}
+\entry{Watch Resale}{Plainfield, IL}{Self-Employed}{\tbd{dates}}
+\begin{itemize}
+  \item Grew savings from part-time work into more than \$30,000 reselling watches; lost it to a counterfeit
+\end{itemize}
 \entry{McDonald's}{Plainfield, IL}{Department Manager}{Sep 2022 -- Jul 2024}
 \begin{itemize}
   \item Promoted at age 16 as the region's youngest department manager; sustained 90\%+ customer satisfaction scores
